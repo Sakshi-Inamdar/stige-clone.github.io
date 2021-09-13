@@ -1,0 +1,45 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    top: 0;
+    margin-left: 5%;
+    font-weight: 600;
+    position: sticky;
+    background-color: white;
+    height: 10vh;
+}
+.head .stige{
+    font-size: 40px;
+    margin-top: 3vh;
+}
+.head .links{
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 10%;
+    
+}
+.head .sign-up{
+
+    color: white;
+    background-color: #48bf84;
+    border-color: #48bf84;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.head .login{
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}

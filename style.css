@@ -1,0 +1,108 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    top: 0;
+    margin-left: 5%;
+    font-weight: 600;
+    position: sticky;
+    background-color: white;
+    height: 10vh;
+}
+.head .stige{
+    font-size: 40px;
+    margin-top: 3vh;
+}
+.head .links{
+    text-align: center;
+    margin-top: 5vh;
+    margin-right: 10%;
+    
+}
+.head .tracks{
+
+    color: white;
+    background-color: #48bf84;
+    border-color: #48bf84;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.head .login{
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.body{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.body .heading{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.body .talks{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.body .register{
+    margin-top: 3rem !important;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.registerfree{
+    background-color: #48bf84;
+    border-color: #48bf84;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    color: white;
+}
+.reg-free p{
+    color: #48bf84;
+}
+.register .exp{
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.5rem 5rem;
+
+}
+
+.speed-text{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+    font-weight: 500;
+}
+.bullets{
+    list-style-type: none;
+    display: inline-block;
+}
+.bullets div{
+    background-color:lightgrey;
+    border-radius: 10px;
+}
+.bullets .u-l, .w-i{
+    margin-top: 20px;
+    display:inline-flex;
+    width: 70%;
+}
